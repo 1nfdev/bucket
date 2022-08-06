@@ -13,6 +13,20 @@
       "bonzomatic-dx11.exe",
       "bonzomatic-dx9.exe"
     ],
+    "shortcuts": [
+      [
+          "bonzomatic-glfw.exe",
+          "Bonzomatic GLFW"
+      ],
+      [
+          "bonzomatic-dx11.exe",
+          "Bonzomatic DX11"
+      ],
+      [
+          "bonzomatic-dx9.exe",
+          "Bonzomatic DX9"
+      ],
+    ],
     "pre_install": [
       "Rename-Item \"$dir\\Bonzomatic_W64_GLFW.exe\" bonzomatic-glfw.exe",
       "Rename-Item \"$dir\\Bonzomatic_W64_DX11.exe\" bonzomatic-dx11.exe",

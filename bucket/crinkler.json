@@ -5,6 +5,12 @@
     "license": "Unknown",
     "url":  "https://github.com/runestubbe/Crinkler/releases/download/v2.3/crinkler23.zip",
     "bin": "crinkler.exe",
+    "shortcuts": [
+      [
+          "crinkler.exe",
+          "Crinkler"
+      ]
+    ],
     "pre_install": [
       "Rename-Item \"$dir\\crinkler23\\Win64\\Crinkler.exe\" crinkler.exe",
       "Move-Item -Path \"$dir\\crinkler23\\Win64\\crinkler.exe\" -Destination \"$dir\\crinkler.exe\"",
