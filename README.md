@@ -5,4 +5,4 @@
 
 ## How do I install these manifests?
 
-To add this bucket, run `scoop bucket add <bucketname> https://github.com/<username>/<bucketname>`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add infdev https://git.sr.ht/~infdev/bucket`. To install, do `scoop install <manifest>`.
