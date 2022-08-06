@@ -1,9 +1,9 @@
 {
-    "version": "latest",
-    "description": "Radeon Developer Tool Suite-2022-08-01-115",
+    "version": "2022-08-01-115",
+    "description": "Radeon Developer Tool Suite",
     "homepage": "https://gpuopen.com/tools/",
     "license": "Proprietary",
-    "url":  "https://gpuopen.com/rdts-windows/",
+    "url":  "https://gpuopen.com/download/radeon-developer-tool-suite/RadeonDeveloperToolSuite-2022-08-01-115.zip",
     "bin": [
       "RadeonRaytracingAnalyzer.exe",
       "RadeonMemoryVisualizer.exe",
