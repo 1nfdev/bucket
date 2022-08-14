@@ -34,7 +34,7 @@
         [
             "tracy-update.exe",
             "Tracy Update"
-        ],
+        ]
     ],
     "pre_install": [
       "Rename-Item \"$dir\\capture.exe\" tracy-capture.exe",
