@@ -1,0 +1,15 @@
+{
+    "version": "2.5.19128",
+    "description": "Memory Debugger for Windows, Linux, Mac, and Android",
+    "homepage": "https://github.com/DynamoRIO/drmemory",
+    "license": "LGPL-2.1-only",
+    "url":  "https://github.com/DynamoRIO/drmemory/releases/download/cronbuild-2.5.19128/DrMemory-Windows-2.5.19128.msi",
+    "bin": "bin64\\drmemory.exe",
+    "shortcuts": [
+      [
+          "bin64\\drmemory.exe",
+          "Dr. Memory"
+      ]
+    ],
+    "hash": "6d7bafa8c7604077409a68a0beb435ceae49e1666bfa103e4796da3e361a1544"
+}
