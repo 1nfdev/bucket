@@ -7,9 +7,17 @@
     "bin": "bin64\\drmemory.exe",
     "shortcuts": [
       [
-          "bin64\\drmemory.exe",
-          "Dr. Memory"
+        "bin64\\drmemory.exe",
+        "Dr. Memory"
+      ],
+      [
+        "docs\\drmemory.html",
+        "Dr. Memory Documentation"
       ]
+    ],
+    "pre_install": [
+      "Get-ChildItem -Path \"$dir\\DrMemory-Windows-$version\\*\" -Recurse | Move-Item -Destination \"$dir\"",
+      "Remove-Item -Path \"$dir\\DrMemory-Windows-$version\""
     ],
     "hash": "f5e74b3a762aa29c8044b11d0e9db1dbf1e01c204032ce735a4e520be8530b33"
 }
